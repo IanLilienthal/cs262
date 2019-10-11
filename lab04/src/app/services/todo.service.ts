@@ -8,7 +8,13 @@ export class TodoService {
 
   public todos: Todo[] = [];
   // test
-  constructor() { }
+  constructor() {
+    this.todo = [{
+      id: 123,
+      title: 'hello',
+      description: 'test'
+    }]
+  }
 
   load(){
 
