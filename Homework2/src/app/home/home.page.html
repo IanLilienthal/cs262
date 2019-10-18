@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-input [(ngModel)]= "inputtext" placeholder="Type your value"></ion-input>
+  </ion-item>
+  <button ion-button (click)="saveData()">Save Data</button>
+  <button ion-button (click)="loadData()">Load Data</button>
+</ion-content>
