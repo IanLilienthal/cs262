@@ -9,7 +9,7 @@ export class TodoService {
   public todos: Todo[] = [];
   // test
   constructor() {
-    this.todo = [{
+    this.todos = [{
       id: 123,
       title: 'hello',
       description: 'test'
